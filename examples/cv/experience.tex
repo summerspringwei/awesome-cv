@@ -1,0 +1,63 @@
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Research}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+
+%---------------------------------------------------------
+  \cventry
+    {优化难：自动子图映射与调度} % Job title
+    {异构融合的移动端AI推理加速} % Organization
+    {北京} % Location
+    {2019.04-至今} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {问题：移动端集成多种异构加速芯片，如何充分利用异构芯片在功耗敏感的情况下加速AI推理}
+        \item {难点：（1）移动设备巨大性能差异（2）日趋复杂的DNN负载（3）轻量级异构融合的并行执行}
+        \item {设计：（1）基于权值的子图划分（2）基于线性规划和贪心的算子分配与调度（3）Cache-aware的优化和轻量级调度}
+        \item {结果：典型DNN模型（Inception-V3/V4，Pnasnet-large）等相比State-of-Art最多$1.65\times$加速（$2$计算单元）}
+        \item {专利一篇：在异构处理单元上执行深度神经网络的方法，申请号：202010493830.8}
+        \item {\textbf{{\color{awesome-red}论文1}：《HOPE: A Heterogeneity-Oriented Parallel Execution Engine for Inference on Mobiles》投稿至CGO21（CCF-B)}}
+        \item {\textbf{{\color{awesome-red}论文2}：《On Re-targeting the AI Programming Framework to New Hardwares》，NPC18（CCF-C，第四作者)}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {编程难：自动选择最优配置} % Job title
+    {面向端云协同AI推理的DNN调优框架} % Organization
+    {北京} % Location
+    {2017.06 - 2019.04} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {问题：DNN在移动端和云端协同的推理成为DNN部署新方法}
+        \item {难点：（1）如何准确的测量延迟和功耗（2） 如何切分DNN负载最小化延迟和功耗（3）如何选择最优的软硬件配置}
+        \item {设计：（1）动态的layer-wise profiling机制（2）自动调优框架：DNNTune自动发现最优切分点和最佳软硬件配置}
+        \item {结果：（1）端云协同最多$1.66\times$加速比、节省$15\%$能耗}
+        \item {结果：（2）刻画各种DNN（CNN/LSTM/MLP)在各种平台（高中低、CPU/GPU/AI、手机/嵌入式）各种配置的性能}
+        \item {\textbf{{\color{awesome-red}论文3}：《DNNTune: Automatic Benchmarking DNN Models for Mobile-cloud Computing》{\color{awesome-red}ACM-TACO (CCF-B)，HiPEAC会议报告}}}
+        \item {\textbf{\color{awesome-red}DNNTune成为过去一年ACM TACO下载量最高的论文(截止目前）。}}
+        \item {\textbf{{\color{awesome-red}论文4}：《Characterizing DNN Models for Edge-Cloud Computing》(poster)，发表在\textbf{IISWC-2018（Benchmark旗舰会议）}}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+  \cventry
+    {CIKM-2015 Competition Top-20} % Job title
+    {Web查询的分类算法} % Organization
+    {天津} % Location
+    {2014.10 - 2015.10} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {\textbf{{\color{awesome-red}论文5}：基于百度搜索引擎数据集的图模型的Web查询分类算法,《Graph-Based Web Query Classification》WISA-2015（EI检索）}}
+      \end{cvitems}
+    }
+
+%---------------------------------------------------------
+
+\end{cventries}
